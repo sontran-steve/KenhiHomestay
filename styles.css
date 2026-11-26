@@ -2456,9 +2456,4 @@ body:has(dialog[open]) .custom-cursor-dot {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .hero-cta-btn,
-  .hero-cta-btn::after,
-  .marquee-track {
-    animation: none;
-  }
 }

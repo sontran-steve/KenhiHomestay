@@ -923,7 +923,7 @@ document.querySelectorAll("img[data-fallback]").forEach((img) => {
 
 // 11. Custom Spring Cursor (Vanilla JS port of @reactbits-starter/custom-cursor-tw)
 const supportsFinePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
-if (supportsFinePointer && !prefersReducedMotion) {
+if (supportsFinePointer) {
   const ring = document.createElement("div");
   ring.className = "custom-cursor-ring";
   const dot = document.createElement("div");
